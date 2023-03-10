@@ -43,8 +43,11 @@ class MainWindow(QMainWindow):
         self.combo_box.addItem("♻️MWeb Pro for MacOS")
         self.combo_box.addItem("♻️PDF Reader Pro for MacOS")
         self.combo_box.addItem("♻️Grids - For Instagram")
+        self.combo_box.addItem("♻️Microsoft Office 2021 for MacOs")
 
         self.combo_box.addItem("🕹Superhot: Mind Control Delete for MacOs")
+        self.combo_box.addItem("🕹Minecraft Java Edition for MacOs")
+        self.combo_box.addItem("🕹Java-8 for MacOs")
         self.combo_box.move(93, 100)
         self.combo_box.setFixedSize(QSize(200, 40))
 
@@ -232,7 +235,13 @@ class NewWindow(QtWidgets.QDialog):
             QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/phpSmax0D7liZg"))
         elif self.key == 9:
             QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/Muh_WphmiLy7eg"))
-        elif self.key == 10:
+        elif self.key == 10: # micro
+            QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/Muh_WphmiLy7eg"))
+        elif self.key == 11:
+            QDesktopServices.openUrl(QUrl("https://drive.google.com/file/d/1hDMrzg0p6wG5jjVkxXkcL8A1RCuaUcxc/view?usp=sharing"))
+        elif self.key == 12: # mine
+            QDesktopServices.openUrl(QUrl("https://drive.google.com/file/d/1hDMrzg0p6wG5jjVkxXkcL8A1RCuaUcxc/view?usp=sharing"))
+        elif self.key == 13: # java
             QDesktopServices.openUrl(QUrl("https://drive.google.com/file/d/1hDMrzg0p6wG5jjVkxXkcL8A1RCuaUcxc/view?usp=sharing"))
 
     def check_key(self):
@@ -259,23 +268,11 @@ class NewWindow(QtWidgets.QDialog):
             self.combo_box.move(120, 100)
             self.combo_box.setFixedSize(QSize(150, 40))
         elif self.key == 2:
-            self.combo_box.addItem("✅Word(2022)")
-            self.combo_box.addItem("✅Excel(2022)")
-            self.combo_box.addItem("✅Power-Point(2022)")
-            self.combo_box.addItem("✅OneNote(2022)")
-            self.combo_box.addItem("✅Outlook(2022)")
-            self.combo_box.addItem("✅Word(2019)")
-            self.combo_box.addItem("✅Excel(2019)")
-            self.combo_box.addItem("✅Power-Point(2019)")
-            self.combo_box.addItem("✅Word(2018)")
-            self.combo_box.addItem("✅Excel(2018)")
-            self.combo_box.addItem("✅Power-Point(2018)")
-            self.combo_box.addItem("✅Word(2016)")
-            self.combo_box.addItem("✅Excel(2016)")
-            self.combo_box.addItem("✅Power-Point(2016)")
-            self.combo_box.addItem("✅Word(2008)")
-            self.combo_box.addItem("✅Excel(2008)")
-            self.combo_box.addItem("✅Power-Point(2008)")
+            self.combo_box.addItem("✅Word(2023)")
+            self.combo_box.addItem("✅Excel(2023)")
+            self.combo_box.addItem("✅Power-Point(2023)")
+            self.combo_box.addItem("✅OneNote(2023)")
+            self.combo_box.addItem("✅Outlook(2023)")
             self.combo_box.move(120, 100)
             self.combo_box.setFixedSize(QSize(150, 40))
         elif self.key == 3:
@@ -329,7 +326,28 @@ class NewWindow(QtWidgets.QDialog):
             self.act.setText("GET")
             self.title.move(90, 50)
         elif self.key == 10:
+            self.combo_box.addItem("✅Microsoft Office 2021")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Program")
+            self.act.setText("GET")
+            self.title.move(90, 50)
+        elif self.key == 11:
             self.combo_box.addItem("✅Superhot: Mind Control Delete")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Game")
+            self.act.setText("GET")
+            self.title.move(110, 50)
+        elif self.key == 12:
+            self.combo_box.addItem("✅Minecraft")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Game")
+            self.act.setText("GET")
+            self.title.move(110, 50)
+        elif self.key == 13:
+            self.combo_box.addItem("✅Java-8")
             self.combo_box.move(120, 100)
             self.combo_box.setFixedSize(QSize(150, 40))
             self.title.setText("Get Game")
