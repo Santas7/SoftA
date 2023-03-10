@@ -18,13 +18,12 @@ SoftA is a tool, software, software downloader that allows you to easily downloa
  - [PDF Reader Pro for MacOS](https://www.pdfreaderpro.com/)
  - [Grids - For Instagram (MacOs and Windows)](https://gridsapp.net/)
  - [Microsoft Office 2021 for MacOs](https://en.wikipedia.org/wiki/Microsoft_Office)
- - [Minecraft Java Edition for MacOs](https://www.minecraft.net/)
- - [Java-8 for MacOs](https://www.java.com/)
 
 ## 🕹Games
 
 - [Superhot: Mind Control Delete for MacOs](https://store.steampowered.com/app/690040/SUPERHOT_MIND_CONTROL_DELETE/)
-
+- [Minecraft Java Edition for MacOs](https://www.minecraft.net/)
+- [Java-8 for MacOs](https://www.java.com/)
 
 ## How do I get all the software⁉️
 You just need to download SoftA in any format convenient for you. Then run the program and get the software or whatever you want.
