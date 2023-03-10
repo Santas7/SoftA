@@ -16,6 +16,11 @@ class MainWindow(QMainWindow):
         self.setFixedSize(QSize(380, 500)) # size window
         self.title = QLabel("SoftA", self)
 
+        # change icon window
+        app_icon = QtGui.QIcon()
+        app_icon.addFile('img/logo.png', QtCore.QSize(100, 100))
+        app.setWindowIcon(app_icon)
+
         # standart text
         font = QtGui.QFont()
         font.setFamily('CeraPro-Bold')  # font
