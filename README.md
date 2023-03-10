@@ -33,3 +33,9 @@ You just need to download SoftA in any format convenient for you. Then run the p
 | ------------- |:------------------:| -----:|
 | MacOS(.dmg)     | 10.03.2023    | [download](https://disk.yandex.ru/d/EM8klS-aqjB6rw) |
 | WindowsOS(.exe)    | 10.03.2023 |   [download](https://disk.yandex.ru/d/Aw7BfpGjLKI3hw) |
+
+## 📢News - To be added soon
+
+- 🕹[Superliminal for MacOS](https://store.steampowered.com/app/1049410/Superliminal/)
+- ♻️[Outline for MacOS]()
+- ♻️[4K Stogram Pro for MacOS]()
