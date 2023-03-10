@@ -1,5 +1,5 @@
 # SoftA
-SoftA - software activator program
+SoftA is a tool, software, software downloader that allows you to easily download and install programs and applications on your computer or mobile device. 
 
 
 ## 💻Available programs and tools for activation
