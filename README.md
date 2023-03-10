@@ -17,6 +17,8 @@ SoftA is a tool, software, software downloader that allows you to easily downloa
  - [MWeb Pro for MacOS](https://apps.apple.com/us/app/mweb-pro/id1403919533?mt=12)
  - [PDF Reader Pro for MacOS](https://www.pdfreaderpro.com/)
  - [Grids - For Instagram (MacOs and Windows)](https://gridsapp.net/)
+ - [Microsoft Office 2021 for MacOs](https://en.wikipedia.org/wiki/Microsoft_Office)
+ - [Microsoft Office 2019 for MacOs](https://en.wikipedia.org/wiki/Microsoft_Office)
 
 ## 🕹Games
 
