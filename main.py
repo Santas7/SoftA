@@ -3,7 +3,7 @@ from PyQt6.QtWidgets import QApplication, QMainWindow, QPushButton, QLabel, QFil
     QVBoxLayout, QTextEdit, QProgressBar, QComboBox
 from PyQt6 import QtGui, QtWidgets, QtCore
 import sys
-
+import config
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -44,11 +44,29 @@ class MainWindow(QMainWindow):
 
         # Connect the signal to the slot
         self.combo_box.activated.connect(self.on_combo_box_changed)
+
+        self.continu.clicked.connect(self.next)
         self.show()
 
     def on_combo_box_changed(self, text):
         self.config = text
-        
+
+    def next(self):
+        window_ = NewWindow()
+        window_.exec()
+
+class NewWindow(QtWidgets.QDialog):
+    def __init__(self):
+        super().__init__()
+
+        self.setWindowTitle("SoftA | SettingUp")
+        self.setFixedSize(QSize(380, 500))
+        self.label = QLabel("", self)
+        font = QtGui.QFont()
+        font.setFamily('CeraPro-Bold')  # сам шрифт
+        font.setPointSize(14)  # размер шрифта
+        self.show()
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     window = MainWindow()
@@ -70,5 +88,3 @@ if __name__ == '__main__':
         }
     """)
     app.exec()
-
-
