@@ -1,6 +1,7 @@
 import os
 
-from PyQt6.QtCore import QSize
+from PyQt6.QtCore import QSize, QUrl
+from PyQt6.QtGui import QDesktopServices
 from PyQt6.QtWidgets import QApplication, QMainWindow, QPushButton, QLabel, QFileDialog, QGridLayout, QLineEdit, \
     QVBoxLayout, QTextEdit, QProgressBar, QComboBox, QMessageBox
 from PyQt6 import QtGui, QtWidgets, QtCore
@@ -34,8 +35,18 @@ class MainWindow(QMainWindow):
         self.combo_box.addItem("💻WindowsOS")
         self.combo_box.addItem("💻MacOS and UnixOS")
         self.combo_box.addItem("💻Microsoft Office")
-        self.combo_box.move(120, 100)
-        self.combo_box.setFixedSize(QSize(150, 40))
+
+        self.combo_box.addItem("♻CodeRunner-4 for MacOS")
+        self.combo_box.addItem("♻️ON1 Photo RAW 2023 for MacOS")
+        self.combo_box.addItem("♻️Artstudio Pro for MacOS")
+        self.combo_box.addItem("♻️Topaz Photo AI for MacOS")
+        self.combo_box.addItem("♻️MWeb Pro for MacOS")
+        self.combo_box.addItem("♻️PDF Reader Pro for MacOS")
+        self.combo_box.addItem("♻️Grids - For Instagram")
+
+        self.combo_box.addItem("🕹Superhot: Mind Control Delete for MacOs")
+        self.combo_box.move(93, 100)
+        self.combo_box.setFixedSize(QSize(200, 40))
 
         self.continu = QPushButton("CONTINUE", self)
         self.continu.setFixedSize(QSize(150, 50))
@@ -168,7 +179,7 @@ class NewWindow(QtWidgets.QDialog):
                 # 95 windows
                 os.system("cd windows/system32/oobe/msoobe/a")
 
-        if self.key == 1:
+        elif self.key == 1:
             if self.key2 == 0:
                 # catalina
                 print("You may have already activated this package before!")
@@ -191,7 +202,7 @@ class NewWindow(QtWidgets.QDialog):
                 # ubuntu
                 print("You may have already activated this package before!")
 
-        if self.key == 2:
+        elif self.key == 2:
             if self.key2 == 0:
                 # word
                 print("You may have already activated this package before!")
@@ -207,7 +218,22 @@ class NewWindow(QtWidgets.QDialog):
             elif self.key2 == 4:
                 # outlook
                 print("You may have already activated this package before!")
-
+        elif self.key == 3:
+            QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/9JUa-bZct_uDgw"))
+        elif self.key == 4:
+            QDesktopServices.openUrl(QUrl("https://drive.google.com/file/d/10EnuBBtovTO_TSsJQ_SrXJ0OKmhbUXZ0/view?usp=sharing"))
+        elif self.key == 5:
+            QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/naQmxsOFJv2Yrw"))
+        elif self.key == 6:
+            QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/WTpmQJxkHmO0BA"))
+        elif self.key == 7:
+            QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/W2Ksd02qaZRckA"))
+        elif self.key == 8:
+            QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/phpSmax0D7liZg"))
+        elif self.key == 9:
+            QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/Muh_WphmiLy7eg"))
+        elif self.key == 10:
+            QDesktopServices.openUrl(QUrl("https://drive.google.com/file/d/1hDMrzg0p6wG5jjVkxXkcL8A1RCuaUcxc/view?usp=sharing"))
 
     def check_key(self):
         if self.key == 0:
@@ -252,6 +278,63 @@ class NewWindow(QtWidgets.QDialog):
             self.combo_box.addItem("✅Power-Point(2008)")
             self.combo_box.move(120, 100)
             self.combo_box.setFixedSize(QSize(150, 40))
+        elif self.key == 3:
+            self.combo_box.addItem("✅CodeRunner-4")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Program")
+            self.act.setText("GET")
+            self.title.move(90, 50)
+        elif self.key == 4:
+            self.combo_box.addItem("✅ON1 Photo RAW")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Program")
+            self.act.setText("GET")
+            self.title.move(90, 50)
+        elif self.key == 5:
+            self.combo_box.addItem("✅Artstudio Pro")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Program")
+            self.act.setText("GET")
+            self.title.move(90, 50)
+        elif self.key == 6:
+            self.combo_box.addItem("✅Topaz Photo AI")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Program")
+            self.act.setText("GET")
+            self.title.move(90, 50)
+        elif self.key == 7:
+            self.combo_box.addItem("✅MWeb Pro")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Program")
+            self.act.setText("GET")
+            self.title.move(90, 50)
+        elif self.key == 8:
+            self.combo_box.addItem("✅PDF Reader Pro")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Program")
+            self.act.setText("GET")
+            self.title.move(90, 50)
+
+        elif self.key == 9:
+            self.combo_box.addItem("✅Grids Instagram")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Program")
+            self.act.setText("GET")
+            self.title.move(90, 50)
+        elif self.key == 10:
+            self.combo_box.addItem("✅Superhot: Mind Control Delete")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Game")
+            self.act.setText("GET")
+            self.title.move(110, 50)
         else:
             print("error!\n")
 
