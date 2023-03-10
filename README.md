@@ -21,3 +21,7 @@ SoftA - software activator program
 ## 🕹Games
 
 - [Superhot: Mind Control Delete for MacOs](https://store.steampowered.com/app/690040/SUPERHOT_MIND_CONTROL_DELETE/)
+
+
+## How do I get all the software⁉️
+You just need to download SoftA in any format convenient for you. Then run the program and get the software or whatever you want.
