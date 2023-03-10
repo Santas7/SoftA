@@ -25,3 +25,8 @@ SoftA is a tool, software, software downloader that allows you to easily downloa
 
 ## How do I get all the software⁉️
 You just need to download SoftA in any format convenient for you. Then run the program and get the software or whatever you want.
+
+| OS      | Year Version               |  |
+| ------------- |:------------------:| -----:|
+| MacOs     | 2023    | [download](https://) |
+| WindowsOs    | 2023 |   [download](https://) |
