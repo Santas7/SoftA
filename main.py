@@ -44,6 +44,7 @@ class MainWindow(QMainWindow):
         self.combo_box.addItem("♻️PDF Reader Pro for MacOS")
         self.combo_box.addItem("♻️Grids - For Instagram")
         self.combo_box.addItem("♻️Microsoft Office 2021 for MacOs")
+        self.combo_box.addItem("♻️DockView for MacOs")
 
         self.combo_box.addItem("🕹Superhot: Mind Control Delete for MacOs")
         self.combo_box.addItem("🕹Minecraft Java Edition for MacOs")
@@ -235,14 +236,16 @@ class NewWindow(QtWidgets.QDialog):
             QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/phpSmax0D7liZg"))
         elif self.key == 9:
             QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/Muh_WphmiLy7eg"))
-        elif self.key == 10: # micro
-            QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/Muh_WphmiLy7eg"))
+        elif self.key == 10:
+            QDesktopServices.openUrl(QUrl("https://drive.google.com/file/d/1e0ePKx_e4M8znCwU3YeacqY7YazEy2dC/view?usp=sharing"))
         elif self.key == 11:
+            QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/HXGKt4CVjHcB0g"))
+        elif self.key == 12:
             QDesktopServices.openUrl(QUrl("https://drive.google.com/file/d/1hDMrzg0p6wG5jjVkxXkcL8A1RCuaUcxc/view?usp=sharing"))
-        elif self.key == 12: # mine
-            QDesktopServices.openUrl(QUrl("https://drive.google.com/file/d/1hDMrzg0p6wG5jjVkxXkcL8A1RCuaUcxc/view?usp=sharing"))
-        elif self.key == 13: # java
-            QDesktopServices.openUrl(QUrl("https://drive.google.com/file/d/1hDMrzg0p6wG5jjVkxXkcL8A1RCuaUcxc/view?usp=sharing"))
+        elif self.key == 13:
+            QDesktopServices.openUrl(QUrl("https://drive.google.com/file/d/1vgGctLdb5leB1-OXb8YoW32NahAQl81F/view?usp=sharing"))
+        elif self.key == 14:
+            QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/XW7WncxRW_6LSQ"))
 
     def check_key(self):
         if self.key == 0:
@@ -333,20 +336,27 @@ class NewWindow(QtWidgets.QDialog):
             self.act.setText("GET")
             self.title.move(90, 50)
         elif self.key == 11:
+            self.combo_box.addItem("✅DockView")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Program")
+            self.act.setText("GET")
+            self.title.move(90, 50)
+        elif self.key == 12:
             self.combo_box.addItem("✅Superhot: Mind Control Delete")
             self.combo_box.move(120, 100)
             self.combo_box.setFixedSize(QSize(150, 40))
             self.title.setText("Get Game")
             self.act.setText("GET")
             self.title.move(110, 50)
-        elif self.key == 12:
+        elif self.key == 13:
             self.combo_box.addItem("✅Minecraft")
             self.combo_box.move(120, 100)
             self.combo_box.setFixedSize(QSize(150, 40))
             self.title.setText("Get Game")
             self.act.setText("GET")
             self.title.move(110, 50)
-        elif self.key == 13:
+        elif self.key == 14:
             self.combo_box.addItem("✅Java-8")
             self.combo_box.move(120, 100)
             self.combo_box.setFixedSize(QSize(150, 40))
