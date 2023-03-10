@@ -38,4 +38,5 @@ You just need to download SoftA in any format convenient for you. Then run the p
 
 - 🕹[Superliminal for MacOS](https://store.steampowered.com/app/1049410/Superliminal/)
 - ♻️[Outline for MacOS]()
+- ♻️[Keep It for MacOS](https://apps.apple.com/ru/app/keep-it/id1272768911?mt=12)
 - ♻️[4K Stogram Pro for MacOS]()
