@@ -1,3 +1,5 @@
+import os
+
 from PyQt6.QtCore import QSize
 from PyQt6.QtWidgets import QApplication, QMainWindow, QPushButton, QLabel, QFileDialog, QGridLayout, QLineEdit, \
     QVBoxLayout, QTextEdit, QProgressBar, QComboBox
@@ -30,7 +32,7 @@ class MainWindow(QMainWindow):
         # Create a combo box and add items
         self.combo_box = QComboBox(self)
         self.combo_box.addItem("💻WindowsOS")
-        self.combo_box.addItem("💻UnixOS")
+        self.combo_box.addItem("💻MacOS and UnixOS")
         self.combo_box.addItem("💻Microsoft Office")
         self.combo_box.move(120, 100)
         self.combo_box.setFixedSize(QSize(150, 40))
@@ -40,7 +42,7 @@ class MainWindow(QMainWindow):
         self.continu.move(120, 150)
         self.continu.setFont(font)
         self.continu.setStyleSheet("background-color : #FFA07A")
-        self.config = None
+        self.config = 0
 
         # Connect the signal to the slot
         self.combo_box.activated.connect(self.on_combo_box_changed)
@@ -54,6 +56,23 @@ class MainWindow(QMainWindow):
 
     def next(self):
         window_ = NewWindow(self.config)
+        window_.setStyleSheet("""
+                QPushButton {
+                    border-radius: 15px;
+                    background-color: #FFA07A;
+                    color: white;
+                    font-size: 20px;
+                    padding: 10px 20px;
+                }
+
+                QPushButton:hover {
+                    background-color: #FF7F50;
+                }
+
+                QPushButton:pressed {
+                    background-color: #FF7F50;
+                }
+            """)
         window_.exec()
 
 class NewWindow(QtWidgets.QDialog):
@@ -77,29 +96,88 @@ class NewWindow(QtWidgets.QDialog):
         font_.setPointSize(27)  # size of font
         self.title.setFont(font_)
         self.title.move(50, 50)
+
         self.act = QPushButton("ACTIVATION", self)
-        self.act.setFixedSize(QSize(150, 50))
-        self.act.move(120, 150)
+        self.act.setFixedSize(QSize(160, 50))
+        self.act.move(115, 150)
         self.act.setFont(font)
         self.act.setStyleSheet("background-color : #FFA07A")
 
         # Create a combo box and add items
         self.combo_box = QComboBox(self)
         self.check_key()
-
+        self.combo_box.activated.connect(self.on_combo_box_changed)
+        self.key2 = 0
+        self.act.clicked.connect(self.cho)
         self.show()
+
+    def on_combo_box_changed(self, text):
+        self.key2 = text
+
+    def get_key(self):
+        if self.key2 == 2:
+            return "W269N-WFGWX-YVC9B-4J6C9-T83GX"
+        elif self.key2 == 1:
+            return "FJ82H-XT6CR-J8D7P-XQJJ2-GPDD4"
+        elif self.key2 == 3:
+            return "XCVCF-2NXM9-723PB-MHCB7-2RYQQ"
+        elif self.key2 == 4:
+            return 0
+        elif self.key2 == 5:
+            return "VDYBN-27WPP-V4HQT-9VMD4-VMK7H"
+
+    def cho(self):
+        if self.key == 0:
+            if self.key2 == 0:
+                # 12 windows
+                pass
+            elif self.key2 == 1:
+                # 11 windows
+                os.system("slmgr /dli")
+                os.system("slmgr /ipk " + self.get_key())
+                os.system("slmgr /skms kms.digiboy.ir")
+                os.system("slmgr /ato")
+            elif self.key2 == 2:
+                # 10 windows
+                os.system("slmgr.vbs /upk")
+                os.system("slmgr.vbs /ipk " + self.get_key())
+                os.system("slmgr /skms kms.digiboy.ir")
+                os.system("slmgr.vbs /ato")
+            elif self.key2 == 3:
+                # 8 windows
+                os.system("slmgr /upk")
+                os.system("slmgr /ipk " + self.get_key())
+                os.system("slmgr / skms kms8.msguides.com")
+                os.system("slmgr.vbs /ato")
+            elif self.key2 == 4:
+                # 7 windows
+                os.system("slmgr /rearm")
+            elif self.key2 == 5:
+                # Server-standart windows
+                os.system("slmgr /ipk " + self.get_key())
+                os.system("slmgr /skms kms.digiboy.ir")
+                os.system("slmgr /ato")
+            elif self.key2 == 6:
+                # xp windows
+                os.system("cd windows/system32/oobe/msoobe/a")
+            elif self.key2 == 7:
+                # 98 windows
+                os.system("cd windows/system32/oobe/msoobe/a")
+            elif self.key2 == 8:
+                # 95 windows
+                os.system("cd windows/system32/oobe/msoobe/a")
 
     def check_key(self):
         if self.key == 0:
-            self.combo_box.addItem("✅Window-12")
+            self.combo_box.addItem("❌Window-12")
             self.combo_box.addItem("✅Windows-11")
             self.combo_box.addItem("✅Windows-10")
             self.combo_box.addItem("✅Window-8")
             self.combo_box.addItem("✅Windows-7")
             self.combo_box.addItem("✅Windows-Server")
-            self.combo_box.addItem("✅Windows-XP")
-            self.combo_box.addItem("✅Windows-98")
-            self.combo_box.addItem("✅Windows-95")
+            self.combo_box.addItem("⚠️Windows-XP")
+            self.combo_box.addItem("⚠️Windows-98")
+            self.combo_box.addItem("⚠️Windows-95")
             self.combo_box.move(120, 100)
             self.combo_box.setFixedSize(QSize(150, 40))
         elif self.key == 1:
