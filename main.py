@@ -2,7 +2,7 @@ import os
 
 from PyQt6.QtCore import QSize
 from PyQt6.QtWidgets import QApplication, QMainWindow, QPushButton, QLabel, QFileDialog, QGridLayout, QLineEdit, \
-    QVBoxLayout, QTextEdit, QProgressBar, QComboBox
+    QVBoxLayout, QTextEdit, QProgressBar, QComboBox, QMessageBox
 from PyQt6 import QtGui, QtWidgets, QtCore
 import sys
 import config
@@ -130,7 +130,8 @@ class NewWindow(QtWidgets.QDialog):
         if self.key == 0:
             if self.key2 == 0:
                 # 12 windows
-                pass
+                print("This package is not yet available!")
+
             elif self.key2 == 1:
                 # 11 windows
                 os.system("slmgr /dli")
@@ -167,6 +168,47 @@ class NewWindow(QtWidgets.QDialog):
                 # 95 windows
                 os.system("cd windows/system32/oobe/msoobe/a")
 
+        if self.key == 1:
+            if self.key2 == 0:
+                # catalina
+                print("You may have already activated this package before!")
+            elif self.key2 == 1:
+                # Mojave
+                print("You may have already activated this package before!")
+            elif self.key2 == 2:
+                #  High Sierra
+                print("You may have already activated this package before!")
+            elif self.key2 == 3:
+                # Sierra
+                print("You may have already activated this package before!")
+            elif self.key2 == 4:
+                # Monterey
+                print("You may have already activated this package before!")
+            elif self.key2 == 5:
+                # Big Sur
+                print("You may have already activated this package before!")
+            elif self.key2 == 6:
+                # ubuntu
+                print("You may have already activated this package before!")
+
+        if self.key == 2:
+            if self.key2 == 0:
+                # word
+                print("You may have already activated this package before!")
+            elif self.key2 == 1:
+                # excel
+                print("You may have already activated this package before!")
+            elif self.key2 == 2:
+                #  power-point
+                print("You may have already activated this package before!")
+            elif self.key2 == 3:
+                # onenote
+                print("You may have already activated this package before!")
+            elif self.key2 == 4:
+                # outlook
+                print("You may have already activated this package before!")
+
+
     def check_key(self):
         if self.key == 0:
             self.combo_box.addItem("❌Window-12")
@@ -183,10 +225,10 @@ class NewWindow(QtWidgets.QDialog):
         elif self.key == 1:
             self.combo_box.addItem("✅MacOS Catalina")
             self.combo_box.addItem("✅MacOS Mojave")
-            self.combo_box.addItem("✅MacOS High Sierra")
+            self.combo_box.addItem("⚠️MacOS High Sierra")
             self.combo_box.addItem("✅MacOS Sierra")
             self.combo_box.addItem("✅MacOS Monterey")
-            self.combo_box.addItem("✅MacOS Big Sur")
+            self.combo_box.addItem("⚠️MacOS Big Sur")
             self.combo_box.addItem("✅Linux Ubuntu(FREE)")
             self.combo_box.move(120, 100)
             self.combo_box.setFixedSize(QSize(150, 40))
@@ -212,6 +254,9 @@ class NewWindow(QtWidgets.QDialog):
             self.combo_box.setFixedSize(QSize(150, 40))
         else:
             print("error!\n")
+
+
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
