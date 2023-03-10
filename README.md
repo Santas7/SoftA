@@ -17,3 +17,7 @@ SoftA - software activator program
  - [MWeb Pro for MacOS](https://apps.apple.com/us/app/mweb-pro/id1403919533?mt=12)
  - [PDF Reader Pro for MacOS](https://www.pdfreaderpro.com/)
  - [Grids - For Instagram (MacOs and Windows)](https://gridsapp.net/)
+
+## 🕹Games
+
+- [Superhot: Mind Control Delete for MacOs](https://store.steampowered.com/app/690040/SUPERHOT_MIND_CONTROL_DELETE/)
