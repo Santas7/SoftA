@@ -29,4 +29,4 @@ You just need to download SoftA in any format convenient for you. Then run the p
 | OS      | Year Version               |  |
 | ------------- |:------------------:| -----:|
 | MacOs     | 2023    | [download](https://) |
-| WindowsOs    | 2023 |   [download](https://) |
+| WindowsOs(.exe)    | 2023 |   [download](https://) |
