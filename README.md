@@ -31,5 +31,5 @@ You just need to download SoftA in any format convenient for you. Then run the p
 
 | OS      | Year Version               |  |
 | ------------- |:------------------:| -----:|
-| MacOs(.dmg)     | 2023    | [download](https://disk.yandex.ru/d/EM8klS-aqjB6rw) |
-| WindowsOs(.exe)    | 2023 |   [download](https://disk.yandex.ru/d/Aw7BfpGjLKI3hw) |
+| MacOs(.dmg)     | 10.03.2023    | [download](https://disk.yandex.ru/d/EM8klS-aqjB6rw) |
+| WindowsOs(.exe)    | 10.03.2023 |   [download](https://disk.yandex.ru/d/Aw7BfpGjLKI3hw) |
