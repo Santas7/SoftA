@@ -45,3 +45,7 @@ You just need to download SoftA in any format convenient for you. Then run the p
 - ♻️[GarageSale for MacOS](https://www.iwascoding.com/GarageSale/index.html)
 - ♻️[Microphone Lock for MacOS]()
 - ♻️[SQLPro for SQLite MacOS](https://www.sqlitepro.com/)
+- ♻️[Rectangle Pro for MacOS](https://rectangleapp.com/pro)
+- 🕹[Scythe: Digital Edition for MacOS](https://store.steampowered.com/app/718560/Scythe_Digital_Edition/)
+- 🕹[Untitled Goose Game for MacOS](https://store.steampowered.com/app/837470/Untitled_Goose_Game/)
+- 🕹[Mini Metro for MacOS](https://store.steampowered.com/app/287980/Mini_Metro/)
