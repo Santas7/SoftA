@@ -51,3 +51,4 @@ You just need to download SoftA in any format convenient for you. Then run the p
 - 🕹[Mini Metro for MacOS](https://store.steampowered.com/app/287980/Mini_Metro/)
 - 🕹[Alto's Odyssey: The Lost City for MacOS](https://apps.apple.com/us/app/altos-odyssey-remastered/id1538650027)
 - 🕹[Alto's Adventure for MacOS](https://apps.apple.com/app/altos-adventure/id950812012)
+- ♻️[Presentation Helper for MacOS](https://apps.apple.com/us/app/presentation-helper/id1539261720?mt=12)
