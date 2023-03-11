@@ -41,19 +41,41 @@ class MainWindow(QMainWindow):
         self.combo_box.addItem("💻MacOS and UnixOS")
         self.combo_box.addItem("💻Microsoft Office")
 
-        self.combo_box.addItem("♻CodeRunner-4 for MacOS")
-        self.combo_box.addItem("♻️ON1 Photo RAW 2023 for MacOS")
-        self.combo_box.addItem("♻️Artstudio Pro for MacOS")
-        self.combo_box.addItem("♻️Topaz Photo AI for MacOS")
-        self.combo_box.addItem("♻️MWeb Pro for MacOS")
-        self.combo_box.addItem("♻️PDF Reader Pro for MacOS")
-        self.combo_box.addItem("♻️Grids - For Instagram")
-        self.combo_box.addItem("♻️Microsoft Office 2021 for MacOs")
-        self.combo_box.addItem("♻️DockView for MacOs")
+        self.combo_box.addItem("♻️🍏CodeRunner-4 for MacOS")
+        self.combo_box.addItem("♻️🍏ON1 Photo RAW 2023 for MacOS")
+        self.combo_box.addItem("♻️🍏Artstudio Pro for MacOS")
+        self.combo_box.addItem("♻️🍏Topaz Photo AI for MacOS")
+        self.combo_box.addItem("♻️🍏️MWeb Pro for MacOS")
+        self.combo_box.addItem("♻️🍏PDF Reader Pro for MacOS")
+        self.combo_box.addItem("♻️🍏Grids - For Instagram")
+        self.combo_box.addItem("♻️🍏Microsoft Office 2021 for MacOS")
+        self.combo_box.addItem("♻️🍏️DockView for MacOS")
+        self.combo_box.addItem("♻️🍏Outline for MacOS")
+        self.combo_box.addItem("♻️🍏Keep It for MacOS")
+        self.combo_box.addItem("♻️🍏️4K Stogram Pro for MacOS")
+        self.combo_box.addItem("♻️🍏️Camera Lock for MacOS")
+        self.combo_box.addItem("♻️🍏GarageSale for MacOS")
+        self.combo_box.addItem("♻️🍏Microphone Lock for MacOS")
+        self.combo_box.addItem("♻️🍏️SQLPro for SQLite MacOS")
+        self.combo_box.addItem("♻️🍏Rectangle Pro for MacOS")
+        self.combo_box.addItem("♻️🍏Presentation Helper for MacOS")
 
-        self.combo_box.addItem("🕹Superhot: Mind Control Delete for MacOs")
-        self.combo_box.addItem("🕹Minecraft Java Edition for MacOs")
-        self.combo_box.addItem("🕹Java-8 for MacOs")
+        self.combo_box.addItem("♻️🪟Microsoft Office 2021 for WindowsOS")
+        self.combo_box.addItem("♻️🪟Adobe Photoshop 2023 for WindowsOS")
+
+        self.combo_box.addItem("🕹🍏Superhot: Mind Control Delete for MacOS")
+        self.combo_box.addItem("🕹🍏Minecraft Java Edition for MacOS")
+        self.combo_box.addItem("🕹🍏Java-8 for MacOS")
+        self.combo_box.addItem("🕹🍏Superliminal for MacOS")
+        self.combo_box.addItem("🕹🍏GTA: SA for MacOS")
+        self.combo_box.addItem("🕹🍏Scythe: Digital Edition for MacOS")
+        self.combo_box.addItem("🕹🍏Untitled Goose Game for MacOS")
+        self.combo_box.addItem("🕹🍏Mini Metro for MacOS")
+        self.combo_box.addItem("🕹🍏Alto's Odyssey: The Lost City for MacOS")
+        self.combo_box.addItem("🕹🍏Alto's Adventure for MacOS")
+        self.combo_box.addItem("🕹🪟Hogwarts Legacy for WindowsOS")
+        self.combo_box.addItem("🕹🪟GTA V for WindowsOS")
+        self.combo_box.addItem("🕹🪟Cyberpunk2077 for WindowsOS")
         self.combo_box.move(93, 100)
         self.combo_box.setFixedSize(QSize(200, 40))
 
@@ -246,11 +268,78 @@ class NewWindow(QtWidgets.QDialog):
         elif self.key == 11:
             QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/HXGKt4CVjHcB0g"))
         elif self.key == 12:
-            QDesktopServices.openUrl(QUrl("https://drive.google.com/file/d/1hDMrzg0p6wG5jjVkxXkcL8A1RCuaUcxc/view?usp=sharing"))
+            # Outline for MacOS
+            QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/-kAF2wcXzP5oKw"))
         elif self.key == 13:
-            QDesktopServices.openUrl(QUrl("https://drive.google.com/file/d/1vgGctLdb5leB1-OXb8YoW32NahAQl81F/view?usp=sharing"))
+            # Keep It for MacOS
+            QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/zSDOLQVOFv2amQ"))
         elif self.key == 14:
+            # 4K Stogram Pro for MacOS
+            QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/9BRi2wzDh_9xjw"))
+        elif self.key == 15:
+            # Camera Lock for MacOS
+            QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/43bsBq47OayfPA"))
+        elif self.key == 16:
+            # GarageSale for MacOS
+            QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/vxyl8HGhjZNeAA"))
+        elif self.key == 17:
+            # Microphone Lock for MacOS
+            QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/uw3DzUecf_07XA"))
+        elif self.key == 18:
+            # SQLPro for SQLite MacOS
+            QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/x0mGXZNjKHqMRw"))
+        elif self.key == 19:
+            # Rectangle Pro for MacOS
+            QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/BKpFIpprwNuHCQ"))
+        elif self.key == 20:
+            # Presentation Helper for MacOS
+            QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/4wjy-4wR0QPDfQ"))
+
+        elif self.key == 21:
+            # office for windows
+            QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/WkZTqe9sc5QQKg"))
+        elif self.key == 22:
+            # photoshop for windows
+            QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/JwO6TBTBoKgrDA"))
+
+        elif self.key == 23:
+            QDesktopServices.openUrl(QUrl("https://drive.google.com/file/d/1hDMrzg0p6wG5jjVkxXkcL8A1RCuaUcxc/view?usp=sharing"))
+        elif self.key == 24:
+            # minecraft
+            QDesktopServices.openUrl(QUrl("https://drive.google.com/file/d/1vgGctLdb5leB1-OXb8YoW32NahAQl81F/view?usp=sharing"))
+        elif self.key == 25:
+            # java - 8
             QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/XW7WncxRW_6LSQ"))
+        elif self.key == 26:
+            # Superliminal for MacOS
+            QDesktopServices.openUrl(QUrl("https://drive.google.com/file/d/1vApbfojcnx2-j2cD-s8XTgGbDRyQWiRu/view?usp=sharing"))
+        elif self.key == 27: 
+            # gta sa
+            QDesktopServices.openUrl(QUrl("https://drive.google.com/file/d/1FVNinwsi_j2VKzjTRjPT0NlDY2QtPpdq/view?usp=sharing"))
+        elif self.key == 28:
+            # Scythe: Digital Edition for MacOS
+            QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/tjex6IF_rp_mwA"))
+        elif self.key == 29:
+            # Untitled Goose Game for MacOS
+            QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/UMvlfZuYp11NyA"))
+        elif self.key == 30:
+            # Mini Metro for MacOS
+            QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/NU33DCOyuwPryw"))
+        elif self.key == 31:
+            # Alto's Odyssey: The Lost City for MacOS
+            QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/otl7DwwC720YPg"))
+        elif self.key == 32:
+            # Alto's Adventure for MacOS
+            QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/IPDN6KjcITJhlg"))
+        elif self.key == 33: #
+            # hogwarts-legacy
+            QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/QU3uqtTCzgZTWQ"))
+        elif self.key == 34: #
+            # gta v for windowsos
+            QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/SYIV9W5XcmszYw"))
+        elif self.key == 35: #
+            # cyberpunk2077 for windowsos
+            QDesktopServices.openUrl(QUrl("https://disk.yandex.ru/d/l0-F-QBxDowXbA"))
 
     def check_key(self):
         if self.key == 0:
@@ -347,22 +436,172 @@ class NewWindow(QtWidgets.QDialog):
             self.title.setText("Get Program")
             self.act.setText("GET")
             self.title.move(90, 50)
-        elif self.key == 12:
+        elif self.key == 12: #
+            self.combo_box.addItem("✅Outline")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Program")
+            self.act.setText("GET")
+            self.title.move(90, 50)
+        elif self.key == 13: #
+            self.combo_box.addItem("✅Keep It")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Program")
+            self.act.setText("GET")
+            self.title.move(90, 50)
+        elif self.key == 14: #
+            self.combo_box.addItem("✅4K Stogram Pro")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Program")
+            self.act.setText("GET")
+            self.title.move(90, 50)
+
+        elif self.key == 15: #
+            self.combo_box.addItem("✅Camera Lock")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Program")
+            self.act.setText("GET")
+            self.title.move(90, 50)
+        elif self.key == 16: #
+            self.combo_box.addItem("✅GarageSale")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Program")
+            self.act.setText("GET")
+            self.title.move(90, 50)
+        elif self.key == 17: #
+            self.combo_box.addItem("✅Microphone Lock")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Program")
+            self.act.setText("GET")
+            self.title.move(90, 50)
+        elif self.key == 18: #
+            self.combo_box.addItem("✅SQLPro for SQLite")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Program")
+            self.act.setText("GET")
+            self.title.move(90, 50)
+        elif self.key == 19: #
+            self.combo_box.addItem("✅Rectangle Pro")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Program")
+            self.act.setText("GET")
+            self.title.move(90, 50)
+        elif self.key == 20: #
+            self.combo_box.addItem("✅Presentation Helper")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Program")
+            self.act.setText("GET")
+            self.title.move(90, 50)
+
+        elif self.key == 21: #
+            self.combo_box.addItem("✅Microsoft Office")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Program")
+            self.act.setText("GET")
+            self.title.move(90, 50)
+        elif self.key == 22: #
+            self.combo_box.addItem("✅Adobe Photoshop 2023")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Program")
+            self.act.setText("GET")
+            self.title.move(90, 50)
+
+        elif self.key == 23:
             self.combo_box.addItem("✅Superhot: Mind Control Delete")
             self.combo_box.move(120, 100)
             self.combo_box.setFixedSize(QSize(150, 40))
             self.title.setText("Get Game")
             self.act.setText("GET")
             self.title.move(110, 50)
-        elif self.key == 13:
+        elif self.key == 24:
             self.combo_box.addItem("✅Minecraft")
             self.combo_box.move(120, 100)
             self.combo_box.setFixedSize(QSize(150, 40))
             self.title.setText("Get Game")
             self.act.setText("GET")
             self.title.move(110, 50)
-        elif self.key == 14:
+        elif self.key == 25:
             self.combo_box.addItem("✅Java-8")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Game")
+            self.act.setText("GET")
+            self.title.move(110, 50)
+        elif self.key == 26:
+            self.combo_box.addItem("✅Superliminal")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Game")
+            self.act.setText("GET")
+            self.title.move(110, 50)
+        elif self.key == 27:
+            self.combo_box.addItem("✅GTA: SA")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Game")
+            self.act.setText("GET")
+            self.title.move(110, 50)
+        elif self.key == 28:
+            self.combo_box.addItem("✅Scythe: Digital Edition")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Game")
+            self.act.setText("GET")
+            self.title.move(110, 50)
+        elif self.key == 29:
+            self.combo_box.addItem("✅Untitled Goose Game")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Game")
+            self.act.setText("GET")
+            self.title.move(110, 50)
+        elif self.key == 30:
+            self.combo_box.addItem("✅Mini Metro")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Game")
+            self.act.setText("GET")
+            self.title.move(110, 50)
+        elif self.key == 31:
+            self.combo_box.addItem("✅Alto's Odyssey: The Lost City")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Game")
+            self.act.setText("GET")
+            self.title.move(110, 50)
+        elif self.key == 32:
+            self.combo_box.addItem("✅Alto's Adventure")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Game")
+            self.act.setText("GET")
+            self.title.move(110, 50)
+        elif self.key == 33:
+            self.combo_box.addItem("✅Hogwarts Legacy")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Game")
+            self.act.setText("GET")
+            self.title.move(110, 50)
+        elif self.key == 34:
+            self.combo_box.addItem("✅GTA V")
+            self.combo_box.move(120, 100)
+            self.combo_box.setFixedSize(QSize(150, 40))
+            self.title.setText("Get Game")
+            self.act.setText("GET")
+            self.title.move(110, 50)
+        elif self.key == 35:
+            self.combo_box.addItem("✅Cyberpunk2077")
             self.combo_box.move(120, 100)
             self.combo_box.setFixedSize(QSize(150, 40))
             self.title.setText("Get Game")
