@@ -8,7 +8,7 @@ SoftA is a tool, software, software downloader that allows you to easily downloa
  - [MacOS and UnixOS](https://en.wikipedia.org/wiki/MacOS)
  - [Microsoft Office](https://en.wikipedia.org/wiki/Microsoft_Office)
 
-## ♻️Downloader program
+## ♻️🍏Downloader program
 
  - [CodeRunner-4 for MacOS](https://coderunnerapp.com/)
  - [ON1 Photo RAW 2023 for MacOS](https://www.on1.com/products/photo-raw/)
@@ -20,11 +20,15 @@ SoftA is a tool, software, software downloader that allows you to easily downloa
  - [Microsoft Office 2021 for MacOS](https://en.wikipedia.org/wiki/Microsoft_Office)
  - [DockView for MacOS](https://noteifyapp.com/dockview/)
 
-## 🕹Games
+## 🕹🍏Games
 
 - [Superhot: Mind Control Delete for MacOS](https://store.steampowered.com/app/690040/SUPERHOT_MIND_CONTROL_DELETE/)
 - [Minecraft Java Edition for MacOS](https://www.minecraft.net/)
 - [Java-8 for MacOS](https://www.java.com/)
+
+
+## ♻️🪟Downloader program
+## 🕹🪟Games
 
 ## How do I get all the software⁉️
 You just need to download SoftA in any format convenient for you. Then run the program and get the software or whatever you want.
