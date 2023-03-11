@@ -19,13 +19,28 @@ SoftA is a tool, software, software downloader that allows you to easily downloa
  - [Grids - For Instagram (MacOS and WindowsOS)](https://gridsapp.net/)
  - [Microsoft Office 2021 for MacOS](https://en.wikipedia.org/wiki/Microsoft_Office)
  - [DockView for MacOS](https://noteifyapp.com/dockview/)
+ - [Outline for MacOS]()
+ - [Keep It for MacOS](https://apps.apple.com/app/keep-it/id1272768911?mt=12)
+ - [4K Stogram Pro for MacOS]()
+ - [Camera Lock for MacOS](https://apps.apple.com/app/camera-lock/id860572216?mt=12)
+ - [GarageSale for MacOS](https://www.iwascoding.com/GarageSale/index.html)
+ - [Microphone Lock for MacOS]()
+ - [SQLPro for SQLite MacOS](https://www.sqlitepro.com/)
+ - [Rectangle Pro for MacOS](https://rectangleapp.com/pro)
+ - [Presentation Helper for MacOS](https://apps.apple.com/us/app/presentation-helper/id1539261720?mt=12)
 
 ## 🕹🍏Games
 
 - [Superhot: Mind Control Delete for MacOS](https://store.steampowered.com/app/690040/SUPERHOT_MIND_CONTROL_DELETE/)
 - [Minecraft Java Edition for MacOS](https://www.minecraft.net/)
 - [Java-8 for MacOS](https://www.java.com/)
-
+- [Superliminal for MacOS](https://store.steampowered.com/app/1049410/Superliminal/)
+- [Grand Theft Auto: San Andreas for MacOS](https://apps.apple.com/ua/app/grand-theft-auto-san-andreas/id763692274?l)
+- [Scythe: Digital Edition for MacOS](https://store.steampowered.com/app/718560/Scythe_Digital_Edition/)
+- [Untitled Goose Game for MacOS](https://store.steampowered.com/app/837470/Untitled_Goose_Game/)
+- [Mini Metro for MacOS](https://store.steampowered.com/app/287980/Mini_Metro/)
+- [Alto's Odyssey: The Lost City for MacOS](https://apps.apple.com/us/app/altos-odyssey-remastered/id1538650027)
+- [Alto's Adventure for MacOS](https://apps.apple.com/app/altos-adventure/id950812012)
 
 ## ♻️🪟Downloader program
 ## 🕹🪟Games
@@ -40,19 +55,3 @@ You just need to download SoftA in any format convenient for you. Then run the p
 
 ## 📢News - To be added soon
 
-- 🕹[Superliminal for MacOS](https://store.steampowered.com/app/1049410/Superliminal/)
-- ♻️[Outline for MacOS]()
-- ♻️[Keep It for MacOS](https://apps.apple.com/app/keep-it/id1272768911?mt=12)
-- ♻️[4K Stogram Pro for MacOS]()
-- ♻️[Camera Lock for MacOS](https://apps.apple.com/app/camera-lock/id860572216?mt=12)
-- 🕹[Grand Theft Auto: San Andreas for MacOS](https://apps.apple.com/ua/app/grand-theft-auto-san-andreas/id763692274?l)
-- ♻️[GarageSale for MacOS](https://www.iwascoding.com/GarageSale/index.html)
-- ♻️[Microphone Lock for MacOS]()
-- ♻️[SQLPro for SQLite MacOS](https://www.sqlitepro.com/)
-- ♻️[Rectangle Pro for MacOS](https://rectangleapp.com/pro)
-- 🕹[Scythe: Digital Edition for MacOS](https://store.steampowered.com/app/718560/Scythe_Digital_Edition/)
-- 🕹[Untitled Goose Game for MacOS](https://store.steampowered.com/app/837470/Untitled_Goose_Game/)
-- 🕹[Mini Metro for MacOS](https://store.steampowered.com/app/287980/Mini_Metro/)
-- 🕹[Alto's Odyssey: The Lost City for MacOS](https://apps.apple.com/us/app/altos-odyssey-remastered/id1538650027)
-- 🕹[Alto's Adventure for MacOS](https://apps.apple.com/app/altos-adventure/id950812012)
-- ♻️[Presentation Helper for MacOS](https://apps.apple.com/us/app/presentation-helper/id1539261720?mt=12)
