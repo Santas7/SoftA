@@ -49,3 +49,5 @@ You just need to download SoftA in any format convenient for you. Then run the p
 - 🕹[Scythe: Digital Edition for MacOS](https://store.steampowered.com/app/718560/Scythe_Digital_Edition/)
 - 🕹[Untitled Goose Game for MacOS](https://store.steampowered.com/app/837470/Untitled_Goose_Game/)
 - 🕹[Mini Metro for MacOS](https://store.steampowered.com/app/287980/Mini_Metro/)
+- 🕹[Alto's Odyssey: The Lost City for MacOS](https://apps.apple.com/us/app/altos-odyssey-remastered/id1538650027)
+- 🕹[Alto's Adventure for MacOS](https://apps.apple.com/app/altos-adventure/id950812012)
